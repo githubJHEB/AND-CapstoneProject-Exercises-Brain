@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name">Exercises for the brain</string>
+
+
+
+
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <string name="pref_difficult_level_label" translatable="false">Dificult level</string>
+
+    <string name="pref_difficult_level_key" translatable="false">Order</string>
+
+    <string name="pref_dificult_level_label_medium" translatable="false">Medium Level</string>
+
+    <string name="pref_dificult_level_label_high" translatable="false">High Level</string>
+
+    <string name="pref_dificult_level_medium" translatable="false">mediumlevel</string>
+
+    <string name="pref_dificult_level_high" translatable="false">highlevel</string>
+
+
+
+
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_out">Sign Out</string>
+
+
+    <string name="loading">Loading…</string>
+
+
+    <string name="signed_out">Signed Out</string>
+
+
+    <string name="forgot_password">Forgot password</string>
+
+
+    <string name="auth_failed">Authentication failed</string>
+    <string name="emailpassword_status_fmt" translatable="false">Email User: %1$s (verified: %2$b)</string>
+    <string name="AddId" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="medium_dificult_level" translatable="false">medio</string>
+    <string name="high_dificult_level" translatable="false">alto</string>
+    <string name="exerciseMathematical">Exercise </string>
+    <string name="noDataAvailableOnTheCloud">No data available in the cloud:</string>
+
+    <string name="singIn">SING IN</string>
+    <string name="singOut">SING OUT</string>
+    <string name="sing" translatable="false">SING</string>
+
+    <string name="chronometer">Chronometer</string>
+    <string name="mainActivityButtonAdapter">To continue you must have completed the exercises of the previous days.</string>
+
+    <string name="questionAnswered">Answered</string>
+    <string name="questionSing" translatable="false">/30</string>
+    <string name="dayActivityStartMatheButton">Start mathematical exercise</string>
+    <string name="dayActivityStartColor">Start Color</string>
+    <string name="dayActivityStartAlpha">Start Alphabet</string>
+    <string name="dayActivityStartImage">Start Imagen</string>
+    <string name="day" translatable="false">Day </string>
+    <string name="numberofdays">30 day program</string>
+    <string name="dayEx">Day: </string>
+    <string name="time">Time: </string>
+    <string name="correct">Correct: </string>
+    <string name="correctA">Correct answere: </string>
+    <string name="graphicalData" translatable="false">data</string>
+    <string name="graphicalNumberOfDay" translatable="false">Number of day</string>
+    <string name="graphicalMath" translatable="false">math</string>
+    <string name="graphicalColor" translatable="false">color</string>
+    <string name="graphicalAlpha" translatable="false">alpha</string>
+    <string name="graphicalImage" translatable="false">image</string>
+    <string name="graphicalLabelMath">Math exercise. Time</string>
+    <string name="graphicalLabelColor">Color exercise. Time</string>
+    <string name="graphicalLabelAlphabet">Alphabet exercise. Time</string>
+    <string name="graphicalLabelImage">Image exercise. # of Correct</string>
+    <string name="graphicalNoHistata">No historical data available to show </string>
+
+
+    <string name="content_description_read_more">Read more about the application</string>
+    <string name="content_description_program_duration">Program duration of 30 days</string>
+    <string name="content_description_horizontal_options">Horizon list with 30 exercises one for each day</string>
+    <string name="content_description_sing_in">Sing in if you want access for mathematical operations</string>
+
+    <string name="content_description_warm_up">Warm up exercises</string>
+    <string name="content_description_excecute_color">Sart test color</string>
+    <string name="content_description_excecute_alphabet">Start test alphabet</string>
+    <string name="content_description_excecute_imagens">Start test imagens</string>
+
+    <string name="subtitle">Keep your brain young</string>
+    <string name="textbriefdescription">Keep your brain healthy by practicing these exercises.
+        If you want access to new mathematical operations you need to register and login.</string>
+    <string name="buttonreadmore">READ MORE</string>
+    <string name="content_description_look_performance">look at performance</string>
+    <string name="content_description_start">Start</string>
+    <string name="content_description_Line_Chart" translatable="false">Line chart</string>
+
+    <string name="content_description_verify_account">Email verification</string>
+
+    <string name="content_description_write_email">Write your email</string>
+    <string name="content_descripcion_writ_password">Write yout password</string>
+    <string name="content_description_subtitle">Subtitle</string>
+
+    <string name="content_description_AlphaTest">Start alphabet test</string>
+    <string name="content_description_performance">Look at performance</string>
+
+    <string name="content_descriptio_timer">Timer</string>
+
+    <string name="content_description_start_exerciseColor">Start Color test</string>
+
+    <string name="content_description_start_imagenTest">Start imagen test</string>
+    <string name="content_description_performance_imageExercise">Look at performance</string>
+    <string name="content_description_imagens">Imagens</string>
+    <string name="erase_history_data">START AGAIN</string>
+    <string name="code_erase" translatable="false">4@44</string>
+    <string name="descriptionColorTest">As fast as you can, choose a button with the color of the word.</string>
+    <string name="descriptionTestAlphabet">Measure the time it takes to say the alphabet aloud.</string>
+    <string name="descriptionTestMathematical">Calculate the result of the operation as soon as possible.</string>
+    <string name="descriptionTestImagen">Remember as many images as possible in a minute.</string>
+
+
+    <string name="singCreateAcWhEmailSus">Create User With Email: Success</string>
+    <string name="singCreateAcWhEmailFai">Create User With Email: Failure</string>
+    <string name="singActivateAcountByEmail">Please activate your account checking your e-mail</string>
+    <string name="singAutFai">Authentication failed.</string>
+    <string name="singVerifiEmailSentTo">Verification email sent to </string>
+    <string name="singVerifiEmailSentFailure">Failed to send verification email.</string>
+    <string name="singEmailDataRequiered">Email required.</string>
+    <string name="singPasswordDataRequiered">Password required.</string>
+
+    <string name="singInstructionRestPass">We have sent you instructions to reset your password!</string>
+    <string name="singInstructionRestPassFailed">Failed to send reset email!</string>
+    <string name="start">Start</string>
+    <string name="performance">Performance</string>
+    <string name="alphabet" translatable="false">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</string>
+    <string name="alphaStop">STOP</string>
+    <string name="alphaSeconds"> Seconds</string>
+
+
+    <string name="alphaSelectedImages">Selected images: </string>
+    <string name="alphaCorrectAnswer">Correct answers </string>
+    <string name="alphaImageToRememberTen">Select up to 10 images that you can remember</string>
+    <string name="description">Many of us do not appreciate our health,
+        because we take it for granted that we will be well at all times,
+        but only when we lose our health we realize how important it is
+        to keep ourselves physically, mentally and spiritually healthy.
+        This application will allow you through entertaining challenges,
+        to maintain and create new neural connections, helping to stop
+        the mental deterioration that by nature presents itself in the
+        course of our life.</string>
+
+
+    <string name="dayWidget">Current day</string>
+    <string name="dayWidgetSmall">Day</string>
+    <string name="mathWidget">Math. Time</string>
+    <string name="colorWidget">Color. Time</string>
+    <string name="alphaWidget">Alpha. Time</string>
+    <string name="imageWidget">Image. Correct</string>
+    <string name="initialValueWidget" translatable="false">0</string>
+    <string name="day1Widget" translatable="false">1</string>
+
+    <string name="quinceperformance" translatable="false">/15</string>
+    <string name="day30performance" translatable="false">/30</string>
+
+</resources>

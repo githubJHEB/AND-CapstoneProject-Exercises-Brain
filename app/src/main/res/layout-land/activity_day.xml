@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.google.android.gms.example.exercisesforthebrain.DayActivity">
+
+    <TextView
+        android:id="@+id/textViewnumberDayId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:focusable="true"
+        android:nextFocusDown="@+id/textViewDayWarmId"
+        android:nextFocusLeft="@+id/textViewDayWarmId"
+        android:nextFocusRight="@+id/textViewDayWarmId"
+        android:nextFocusUp="@+id/textViewSubtitleId"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:transitionName="numberDay1"
+        app:layout_constraintBottom_toTopOf="@+id/textViewDayWarmId"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewBarId" />
+
+    <TextView
+        android:id="@+id/textViewDayWarmId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:contentDescription="@string/content_description_warm_up"
+        android:focusable="true"
+        android:nextFocusDown="@+id/fabTextColorId"
+        android:nextFocusLeft="@+id/fabTextColorId"
+        android:nextFocusRight="@+id/fabTextColorId"
+        android:nextFocusUp="@+id/textViewnumberDayId"
+        android:text="@string/content_description_warm_up"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/fabTextColorId"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabTextColorId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:clickable="true"
+        android:contentDescription="@string/content_description_excecute_color"
+        android:focusable="true"
+        android:nextFocusDown="@+id/fabAlphabetId"
+        android:nextFocusLeft="@+id/fabAlphabetId"
+        android:nextFocusRight="@+id/fabAlphabetId"
+        android:nextFocusUp="@+id/textViewDayWarmId"
+        android:onClick="buttonTestColorActivity"
+        app:backgroundTint="@color/colorButtonaDayAct"
+        app:elevation="6dp"
+        app:fabSize="mini"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineId"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:rippleColor="@color/colorButtonReadMore" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabAlphabetId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:clickable="true"
+        android:contentDescription="@string/content_description_excecute_alphabet"
+        android:focusable="true"
+        android:nextFocusLeft="@+id/fabImagenId"
+        android:nextFocusRight="@+id/fabImagenId"
+        android:onClick="buttonTestAphabetActivity"
+        app:backgroundTint="@color/colorButtonaDayAct"
+        app:elevation="6dp"
+        app:fabSize="mini"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineId"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintStart_toStartOf="@+id/guideline6"
+        app:rippleColor="@color/colorButtonReadMore" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabImagenId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:clickable="true"
+        android:contentDescription="@string/content_description_excecute_imagens"
+        android:focusable="true"
+        android:nextFocusLeft="@+id/startExerciseButtonId"
+        android:nextFocusRight="@+id/startExerciseButtonId"
+        android:onClick="buttonTestImagenActivity"
+        app:backgroundTint="@color/colorButtonaDayAct"
+        app:elevation="6dp"
+        app:fabSize="mini"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineId"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintStart_toStartOf="@+id/guideline7"
+        app:rippleColor="@color/colorButtonReadMore" />
+
+    <View
+        android:id="@+id/viewDividerId"
+        android:layout_width="501dp"
+        android:layout_height="2dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/black"
+        app:layout_constraintBottom_toTopOf="@+id/startExerciseButtonId"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTestAlpha" />
+
+    <Button
+        android:id="@+id/startExerciseButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="@string/dayActivityStartMatheButton"
+        android:elevation="2dp"
+        android:focusable="true"
+        android:onClick="buttonMathematicalActivity"
+        android:paddingEnd="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingStart="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewTextColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/dayActivityStartColor"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="@+id/guidelineId" />
+
+    <TextView
+        android:id="@+id/textViewTestAlpha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/dayActivityStartAlpha"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintStart_toStartOf="@+id/guideline6"
+        app:layout_constraintTop_toTopOf="@+id/guidelineId" />
+
+    <TextView
+        android:id="@+id/textViewTextImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/dayActivityStartImage"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/guideline7"
+        app:layout_constraintTop_toTopOf="@+id/guidelineId" />
+
+    <ImageView
+        android:id="@+id/imageViewBarId"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbarTestStartAlphaId"
+        app:srcCompat="@drawable/horizontalimageforapp"
+        tools:ignore="ContentDescription" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarTestStartAlphaId"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/textViewSubtitleId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:contentDescription="@string/subtitle"
+        android:focusable="true"
+        android:nextFocusDown="@+id/textViewnumberDayId"
+        android:nextFocusLeft="@+id/textViewnumberDayId"
+        android:nextFocusRight="@+id/textViewnumberDayId"
+        android:text="@string/subtitle"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewBarId"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guidelineId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.17" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.83" />
+
+</android.support.constraint.ConstraintLayout>

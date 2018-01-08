@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.google.android.gms.example.exercisesforthebrain.SingActivity">
+
+    <TextView
+        android:id="@+id/status"
+        style="@style/ThemeOverlay.MyTextDetail"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/signed_out"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/detail"
+        style="@style/ThemeOverlay.MyTextDetail"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/status"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/field_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="64dp"
+        android:layout_weight="1"
+        android:hint="@string/content_description_write_email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/field_password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:hint="@string/content_descripcion_writ_password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/field_email" />
+
+    <Button
+        android:id="@+id/email_sign_in_button"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:text="@string/sign_in"
+        android:theme="@style/ThemeOverlay.MyDarkButton"
+        app:layout_constraintBottom_toBottomOf="@+id/sign_out_button"
+        app:layout_constraintEnd_toEndOf="@+id/sign_out_button"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="@+id/sign_out_button"
+        app:layout_constraintTop_toTopOf="@+id/sign_out_button" />
+
+    <Button
+        android:id="@+id/email_create_account_button"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:text="@string/create_account"
+        android:theme="@style/ThemeOverlay.MyDarkButton"
+        app:layout_constraintBottom_toBottomOf="@+id/verify_email_button"
+        app:layout_constraintEnd_toEndOf="@+id/verify_email_button"
+        app:layout_constraintStart_toStartOf="@+id/verify_email_button"
+        app:layout_constraintTop_toTopOf="@+id/verify_email_button" />
+
+
+    <Button
+        android:id="@+id/sign_out_button"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1.0"
+        android:elevation="2dp"
+        android:text="@string/sign_out"
+        android:theme="@style/ThemeOverlay.MyDarkButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/field_password" />
+
+    <Button
+        android:id="@+id/verify_email_button"
+        android:layout_width="195dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1.0"
+        android:elevation="2dp"
+        android:text="@string/content_description_verify_account"
+        android:theme="@style/ThemeOverlay.MyDarkButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sign_out_button" />
+
+    <Button
+        android:id="@+id/forgot_password_botton"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="1.0"
+        android:elevation="2dp"
+        android:text="@string/forgot_password"
+        android:theme="@style/ThemeOverlay.MyDarkButton"
+        app:layout_constraintBaseline_toBaselineOf="@+id/verify_email_button"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

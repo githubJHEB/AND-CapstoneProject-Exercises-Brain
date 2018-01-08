@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "846842378775",
+    "firebase_url": "https://exercisesforthebrain.firebaseio.com",
+    "project_id": "exercisesforthebrain",
+    "storage_bucket": "exercisesforthebrain.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846842378775:android:d328f08f293bc63d",
+        "android_client_info": {
+          "package_name": "com.google.android.gms.example.exercisesforthebrain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "846842378775-gsmqp6fu25geodlipp9odsav1joe2sjg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.android.gms.example.exercisesforthebrain",
+            "certificate_hash": "2587fc78e781cae3de0ac14d7f998cce769a83e6"
+          }
+        },
+        {
+          "client_id": "846842378775-41k231hgik6qnqs2r1me124rg65vign8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIE-B5FIoWoBapNZRnE9eqHGGZCWW9_u8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "846842378775-41k231hgik6qnqs2r1me124rg65vign8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

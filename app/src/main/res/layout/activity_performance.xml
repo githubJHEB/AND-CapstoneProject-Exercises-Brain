@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/stock_detail_relative_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/content_description_Line_Chart" />
+
+    <TextView
+        android:id="@+id/datee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/chart"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@id/chart"
+        android:gravity="center"
+        android:paddingTop="16dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</RelativeLayout>

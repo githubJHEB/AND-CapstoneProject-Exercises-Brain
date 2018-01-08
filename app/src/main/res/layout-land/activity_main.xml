@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    tools:context="com.google.android.gms.example.exercisesforthebrain.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageMainScreenId"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:background="@android:color/white"
+        android:scaleType="centerCrop"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/horizontalimageforapp"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textViewsubTitleId"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="@string/subtitle"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:nextFocusLeft="@+id/textViewDescriptionId"
+        android:nextFocusRight="@+id/textViewDescriptionId"
+        android:text="@string/subtitle"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="@+id/imageMainScreenId"
+        app:layout_constraintStart_toStartOf="@+id/toolbarTestStartAlphaId"
+        app:layout_constraintTop_toTopOf="@+id/toolbarTestStartAlphaId"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textViewDescriptionId"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:fadeScrollbars="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:nextFocusDown="@+id/buttonReadMoreId"
+        android:nextFocusLeft="@+id/buttonReadMoreId"
+        android:nextFocusRight="@+id/buttonReadMoreId"
+        android:scrollbarFadeDuration="0"
+        android:scrollbarSize="3dp"
+        android:scrollbarThumbVertical="@color/colorGrey"
+        android:scrollbarTrackVertical="@color/colorWhite"
+        android:scrollbars="vertical"
+        android:text="@string/textbriefdescription"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonReadMoreId"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageMainScreenId" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarTestStartAlphaId"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:elevation="4dp"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </android.support.v7.widget.Toolbar>
+
+    <Button
+        android:id="@+id/buttonReadMoreId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="16dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/content_description_read_more"
+        android:elevation="6dp"
+        android:focusable="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:nextFocusDown="@+id/textViewTotalDaysId"
+        android:nextFocusLeft="@+id/buttonSingButtonId"
+        android:nextFocusRight="@+id/buttonSingButtonId"
+        android:text="@string/buttonreadmore"
+        android:textAppearance="@style/TextCustomAppWhite"
+        android:textColor="@android:color/holo_blue_light"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineId"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/viewDividerId"
+        android:layout_width="0dp"
+        android:layout_height="3dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="?android:attr/dividerVertical"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guidelineId" />
+
+    <TextView
+        android:id="@+id/textViewTotalDaysId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/content_description_program_duration"
+        android:focusable="true"
+        android:gravity="center"
+        android:nextFocusDown="@+id/recicladorDaySelectorId"
+        android:nextFocusLeft="@+id/recicladorDaySelectorId"
+        android:nextFocusRight="@+id/recicladorDaySelectorId"
+        android:nextFocusUp="@+id/buttonReadMoreId"
+        android:text="@string/numberofdays"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline8"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewDividerId" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recicladorDaySelectorId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/content_description_horizontal_options"
+        android:descendantFocusability="afterDescendants"
+        android:fadeScrollbars="true"
+        android:focusable="true"
+        android:nextFocusDown="@+id/textViewErasedataId"
+        android:nextFocusUp="@+id/textViewTotalDaysId"
+        android:scrollbarFadeDuration="0"
+        android:scrollbarSize="4dp"
+        android:scrollbarThumbHorizontal="@color/colorGrey"
+        android:scrollbarTrackHorizontal="@color/colorWhite"
+        android:scrollbars="horizontal"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline8">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guidelineId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6" />
+
+
+    <Button
+        android:id="@+id/buttonSingButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/content_description_sing_in"
+        android:elevation="6dp"
+        android:focusable="true"
+        android:nextFocusDown="@+id/textViewTotalDaysId"
+        android:nextFocusLeft="@+id/buttonReadMoreId"
+        android:nextFocusRight="@+id/buttonReadMoreId"
+        android:text="@string/sing"
+        android:textAppearance="@style/TextCustomAppWhite"
+        android:textColor="@android:color/holo_blue_light"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineId"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewEmailId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:gravity="center_horizontal"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textViewTotalDaysId"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewErasedataId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"
+        android:nextFocusLeft="@+id/recicladorDaySelectorId"
+        android:nextFocusRight="@+id/recicladorDaySelectorId"
+        android:nextFocusUp="@+id/recicladorDaySelectorId"
+        android:padding="6dp"
+        android:text="@string/erase_history_data"
+        android:textAppearance="@style/TextCustomAppWhite"
+        android:textColor="@android:color/holo_blue_light"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonReadMoreId"
+        app:layout_constraintEnd_toStartOf="@+id/buttonSingButtonId"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toEndOf="@+id/buttonReadMoreId" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+
+</android.support.constraint.ConstraintLayout>
