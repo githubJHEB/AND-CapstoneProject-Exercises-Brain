@@ -13,3 +13,7 @@ This application is aimed at improving the mental health of the people through m
 # License
 
 The content of this repository is licensed under a [Creative Commons Attribution](https://creativecommons.org/licenses/by/3.0/us/).
+
+# Attribution
+
+The image test contains some visual elements that are owned by: [Emojione](http://emojione.com).
