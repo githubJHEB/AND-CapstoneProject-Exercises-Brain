@@ -12,4 +12,4 @@ This application is aimed at improving the mental health of the people through m
      
 # License
 
-The content of this repository is licensed under a [Creative Commons Attribution](creativecommons.org/licenses/by/3.0/us/).
+The content of this repository is licensed under a [Creative Commons Attribution](https://creativecommons.org/licenses/by/3.0/us/).
